@@ -12,14 +12,18 @@
     font-size: 15px;
    background-color: hsl(212, 45%, 89%);
  }
- .card{
-   margin-left: 42%;
-   margin-right: 42%;
-   margin-top: 5%;
-   margin-bottom: 10%;
-   padding: 1%;
-   background-color: hsl(0, 0%, 100%);
-   border-radius: 5%;
+ body { 
+   flex-direction: column; 
+   align-items: center; 
+   justify-content: center;
+ }
+ .card { display: flex; max-width: 350px;  
+    padding: 1%; 
+    background-color: hsl(0, 0%, 100%); 
+    border-radius: 5%; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
  }
  .paragraph1{
    color: hsl(218, 44%, 22%);
@@ -28,9 +32,10 @@
    color: hsl(220, 15%, 55%);
  }
  img{
-   border-radius: 5%;   
+   display: block;
+   border-radius: 8px;   
    height: 100%;
-   width: 100%;
+   width: 200px;
  }
  p{
     text-align: center;
